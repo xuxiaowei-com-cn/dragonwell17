@@ -8,11 +8,11 @@ MAINTAINER 徐晓伟 xuxiaowei@xuxiaowei.com.cn
 WORKDIR /usr/local/dragonwell-17
 
 # 添加镜像
-ADD Alibaba_Dragonwell_17.0.2.0.2+8_x64_linux.tar.gz .
-RUN mv dragonwell-17.0.2.0.2+8-GA/* .
+ADD Alibaba_Dragonwell_17.0.3.0.3+7_x64_linux.tar.gz .
+RUN mv dragonwell-17.0.3.0.3+7-GA/* .
 
 # 设置环境变量
 ENV JAVA_HOME=/usr/local/dragonwell-17
-ENV JAVA_VERSION=17.0.2
-ENV DRAGONWELL_VERSION=17.0.2.0.2+8
+ENV JAVA_VERSION=17.0.3
+ENV DRAGONWELL_VERSION=17.0.3.0.3+7
 ENV PATH=/usr/local/dragonwell-17/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
