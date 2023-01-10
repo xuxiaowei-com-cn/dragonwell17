@@ -10,7 +10,6 @@ docker-build:
     # 下载阿里巴巴 JDK 17
     - wget https://github.com/alibaba/dragonwell17/releases/download/dragonwell-standard-17.0.5.0.5%2B8_jdk-17.0.5-ga/Alibaba_Dragonwell_Standard_17.0.5.0.5.8_x64_linux.tar.gz
     - docker build -t dragonwell17:17.0.5.0.5-8 .
-  after_script:
     - docker images
     - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
     - docker tag dragonwell17:17.0.5.0.5-8 $DOCKER_USERNAME/dragonwell17:17.0.5.0.5-8
