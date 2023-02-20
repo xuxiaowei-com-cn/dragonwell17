@@ -16,7 +16,7 @@
 
 <div align="center" style="text-align: center;">
     <a target="_blank" href="https://work.weixin.qq.com/gm/75cfc47d6a341047e4b6aca7389bdfa8">
-        <img alt="企业微信群" src="static/企业微信群.jpg" height="100"/>
+        <img alt="企业微信群" src="static/wechat-work.jpg" height="100"/>
     </a>
 </div>
 
@@ -100,6 +100,23 @@
     <img alt="code style" src="https://img.shields.io/badge/license-Apache 2-blue">
   </a>
 </div>
+
+## 批量添加远端仓库地址
+
+<details>
+<summary>点击展开</summary>
+git remote add gitee https://gitee.com/xuxiaowei-com-cn/dragonwell17.git
+
+git remote add gitlab https://gitlab.com/xuxiaowei-com-cn/dragonwell17.git
+
+git remote add jihulab https://jihulab.com/xuxiaowei-com-cn/dragonwell17.git
+
+git remote add github https://github.com/xuxiaowei-com-cn/dragonwell17.git
+
+git remote add gitcode https://gitcode.net/xuxiaowei-com-cn/dragonwell17.git
+
+git remote add gitlink https://gitlink.org.cn/xuxiaowei-com-cn/dragonwell17.git
+</details>
 
 ## [GitLab 流水线](https://gitlab.com/xuxiaowei-com-cn/dragonwell17/-/pipelines)
 
